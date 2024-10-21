@@ -1,0 +1,14 @@
+/.terraform
+
+# Ignore Terraform binary for Windows
+terraform.exe
+
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.backup
+#hcl files as well
+
+.terraform.lock.hcl
+
+terraform.tfvars
+*.lock.info
